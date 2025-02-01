@@ -40,40 +40,6 @@ export default function Reservasi() {
         setVisibleKado(false);
     }
 
-    const reservasi = () => {
-        if (rsvpNama === '') {
-            Swal.fire({
-                text: 'Isi Nama!',
-                icon: 'warning',
-                confirmButtonColor: '#413327',
-                confirmButtonText: 'OKE'
-            })
-        } else if (rsvpTamu === '') {
-            Swal.fire({
-                text: 'Isi Jumlah Tamu!',
-                icon: 'warning',
-                confirmButtonColor: '#413327',
-                confirmButtonText: 'OKE'
-            })
-        }
-        else if (rsvpPesan === '') {
-            Swal.fire({
-                text: 'Isi Pesan!',
-                icon: 'warning',
-                confirmButtonColor: '#413327',
-                confirmButtonText: 'OKE'
-            })
-        }
-        else if (rsvpKonfir === '') {
-            Swal.fire({
-                text: 'Pilih Konfirmasi!',
-                icon: 'warning',
-                confirmButtonColor: '#413327',
-                confirmButtonText: 'OKE'
-            })
-        } else {
-            window.open(`https://api.whatsapp.com/send?phone=6285728006013&text=Hai%20Sandi%20%26%20May%2C%20saya%20*${rsvpNama}*%20ingin%20konfirmasi%20kehadiran%20pada%20undangan%20pernikahan%20kalian%20bahwa%20*${rsvpKonfir}*%20bersama%20*${rsvpTamu}*%20orang.%20Saya%20ucapkan%3A%0A*${rsvpPesan}*.%20Terima%20kasih%20ya.`, "_blank");
-        }
 
     }
 
@@ -84,6 +50,7 @@ export default function Reservasi() {
             await addDoc(storeUcapan, {
                 created: serverTimestamp(),
                 nama: formNama,
+                kehadiran: formKehadiran,
                 pesan: formPesan,
             });
             setFormNama('');
@@ -157,8 +124,8 @@ export default function Reservasi() {
                 <div className='flex justify-center mb-8'>
                     <img src={hiasan1} data-aos="fade-up" alt='hiasan1' className='w-[80px]' />
                 </div>
-                <h1 data-aos="fade-up" className='text-center text-2xl font-semibold custom-font-3 mx-4 text-[#413327]'>Menuju Waktu Acara</h1>
-                <h1 data-aos="fade-up" className='text-center text-4xl font-semibold custom-font-3 mx-4 mb-8 text-[#413327]'>Pernikahan Kami</h1>
+                <h1 data-aos="fade-up" className='text-center text-2xl font-semibold custom-font-3 mx-4 text-[#413327]'>Menuju Ke Hari</h1>
+                <h1 data-aos="fade-up" className='text-center text-4xl font-semibold custom-font-3 mx-4 mb-8 text-[#413327]'>Majlis Kami</h1>
                 <div data-aos="fade-up" className='flex justify-center gap-4 mb-8'>
                     <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#413327] text-center custom-font-3 text-white'>
                         <h1 className='md:text-5xl text-xl font-bold'>{countdownTime.countdownDays}</h1>
@@ -167,14 +134,6 @@ export default function Reservasi() {
                     <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#413327] text-center custom-font-3 text-white'>
                         <h1 className='md:text-5xl text-xl font-bold '>{countdownTime.countdownHours}</h1>
                         <p className='md:text-lg text-xs font-semibold'>Jam</p>
-                    </div>
-                    <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#413327] text-center custom-font-3 text-white'>
-                        <h1 className='md:text-5xl text-xl font-bold '>{countdownTime.countdownMinutes}</h1>
-                        <p className='md:text-lg text-xs font-semibold'>Menit</p>
-                    </div>
-                    <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#413327] text-center custom-font-3 text-white'>
-                        <h1 className='md:text-5xl text-xl font-bold '>{countdownTime.countdownSeconds}</h1>
-                        <p className='md:text-lg text-xs font-semibold'>Detik</p>
                     </div>
                 </div>
 
