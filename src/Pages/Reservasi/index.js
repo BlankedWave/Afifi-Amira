@@ -50,7 +50,6 @@ export default function Reservasi() {
             await addDoc(storeUcapan, {
                 created: serverTimestamp(),
                 nama: formNama,
-                kehadiran: formKehadiran,
                 pesan: formPesan,
             });
             setFormNama('');
