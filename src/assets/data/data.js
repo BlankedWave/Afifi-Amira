@@ -31,16 +31,16 @@ export const data = {
                 finish: 'Selesai'
             }
         },
-        reception: {
-            year: '2024',
-            month: 'November',
-            date: '14',
-            day: 'Kamis',
-            hours: {
-                start: '11.00',
-                finish: 'Selesai'
-            }
-        },
+        // reception: {
+        //     year: '2024',
+        //     month: 'November',
+        //     date: '14',
+        //     day: 'Kamis',
+        //     hours: {
+        //         start: '11.00',
+        //         finish: 'Selesai'
+        //     }
+        // },
         address: 'Kp. Lorem, RT 000/ RW 000, Desa.Lorem, Kec.Ipsum, Kab.Lorem, Lorem (1234)'
     },
 
