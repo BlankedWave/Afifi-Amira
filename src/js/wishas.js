@@ -55,9 +55,9 @@ export const wishas = () => {
 
         if (newDate.days < 1) {
             if (newDate.hours < 1) {
-                date = `${newDate.minutes} menit yang lalu`;
+                date = `${newDate.minutes} minit yang lalu`;
             } else {
-                date = `${newDate.hours} jam, ${newDate.minutes} menit yang lalu`;
+                date = `${newDate.hours} jam, ${newDate.minutes} minit yang lalu`;
             }
         } else {
             date = `${newDate.days} hari, ${newDate.hours} jam yang lalu`;
@@ -90,7 +90,7 @@ export const wishas = () => {
             if (comentar.length > 0) {
                 peopleComentar.textContent = `${comentar.length} Orang telah mengucapkan`;
             } else {
-                peopleComentar.textContent = `Belum ada yang mengucapkan`;
+                peopleComentar.textContent = `masih belum ada yang mengucapkan`;
             }
 
             pageNumber.textContent = '1';
@@ -125,7 +125,7 @@ export const wishas = () => {
         } catch (error) {
             return `Error : ${error.message}`;
         } finally {
-            buttonForm.textContent = 'Kirim';
+            buttonForm.textContent = 'Hantar';
             form.reset();
         }
     });
