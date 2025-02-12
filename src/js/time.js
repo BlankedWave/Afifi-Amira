@@ -2,7 +2,8 @@ import { data } from "../assets/data/data.js";
 
 export const time = () => {
     const timeContainer = document.querySelector('.time');
-    const [marriageDiv, receptionDiv] = timeContainer.querySelectorAll('div div');
+    const [marriageDiv] = timeContainer.querySelectorAll('div div');
+    // const [marriageDiv, receptionDiv] = timeContainer.querySelectorAll('div div');
     const mapLink = timeContainer.querySelector('a');
     const addressParagraph = timeContainer.querySelector('a + p');
 
