@@ -30,10 +30,10 @@ export const home = () => {
                     <p>${hours}<br><span>Jam</span></p>
                 </div>
                 <div>
-                    <p>${minutes}<br><span>Menit</span></p>
+                    <p>${minutes}<br><span>Minit</span></p>
                 </div>
                 <div>
-                    <p>${seconds}<br><span>Detik</span></p>
+                    <p>${seconds}<br><span>Saat</span></p>
                 </div>`;
     };
 
