@@ -2,16 +2,16 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Lorem Ipsum',
-            child: 'Putra ke lorem',
-            father: 'Lorem',
-            mother: 'Ipsum',
+            name: 'Muhammad Afifi Bin Ismail',
+            child: 'Putera Kepada',
+            father: 'Ismail Bin Sulaiman',
+            mother: 'Rahmah Binti Mamat',
             image: './src/assets/images/cowo.png'
         },
         P: {
             id: 2,
             name: 'Ipsum Lorem',
-            child: 'Putri ke lorem',
+            child: 'Puteri Kepada',
             father: 'Lorem',
             mother: 'Ipsum',
             image: './src/assets/images/cewe.png'
@@ -22,13 +22,13 @@ export const data = {
 
     time: {
         marriage: {
-            year: '2030',
-            month: 'November',
-            date: '14',
+            year: '2026',
+            month: 'April',
+            date: '26',
             day: 'Kamis',
             hours: {
-                start: '08.00',
-                finish: 'Selesai'
+                start: '10 Pagi',
+                finish: '5 Petang'
             }
         },
         // reception: {
@@ -100,13 +100,13 @@ export const data = {
         },
         {
             id: 2,
-            teks: 'Mempelai',
+            teks: 'Pasangan',
             icon: 'bx bxs-group',
             path: '#bride',
         },
         {
             id: 3,
-            teks: 'Tanggal',
+            teks: 'Tarikh',
             icon: 'bx bxs-calendar-check',
             path: '#time',
         },
