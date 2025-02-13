@@ -16,10 +16,10 @@
 ## How to Use
 
 **Note**: You have two options to use this source code:
-    - **Without Modification**: Open the
+- **Without Modification**: Open the
       file [data.js](https://github.com/SandiPerdiansah/wedding-invitation/blob/main/src/assets/data/data.js) to use the
       code as is.
-    - **With Customization**: Adjust the appearance and content according to your needs.
+- **With Customization**: Adjust the appearance and content according to your needs.
 
 ### How to Edit `data.js`
 
