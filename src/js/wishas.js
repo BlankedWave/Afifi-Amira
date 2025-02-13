@@ -120,7 +120,7 @@ export const wishas = () => {
 
             lengthComentar = response.comentar.length;
 
-            peopleComentar.textContent = `${++response.comentar.length} Orang telah mengucapkan`;
+            peopleComentar.textContent = `${++response.comentar.length} orang telah memberi ucapan`;
             containerComentar.insertAdjacentHTML('afterbegin', listItemComentar(comentar));
         } catch (error) {
             return `Error : ${error.message}`;
