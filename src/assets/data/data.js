@@ -100,7 +100,7 @@ export const data = {
         },
         {
             id: 2,
-            teks: 'Pasangan',
+            teks: 'Pengantin',
             icon: 'bx bxs-group',
             path: '#bride',
         },
@@ -118,8 +118,8 @@ export const data = {
         },
         {
             id: 5,
-            teks: 'Ucapan',
-            icon: 'bx bxs-message-rounded-dots',
+            teks: 'Kehadiran',
+            icon: 'bx bxs-envelope-open',
             path: '#wishas',
         },
     ],
