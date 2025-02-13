@@ -15,12 +15,7 @@
 
 ## How to Use
 
-1. **Download the project or clone the repository**:
-    ```bash
-    git clone https://github.com/sandiperdiansah/wedding-invitation.git
-    ```
-
-2. **Note**: You have two options to use this source code:
+**Note**: You have two options to use this source code:
     - **Without Modification**: Open the
       file [data.js](https://github.com/SandiPerdiansah/wedding-invitation/blob/main/src/assets/data/data.js) to use the
       code as is.
