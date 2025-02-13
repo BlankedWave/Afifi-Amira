@@ -13,7 +13,7 @@ export const time = () => {
          Pukul ${details.hours.start} Hingga ${details.hours.finish}</p>`
     );
 
-    marriageDiv.innerHTML = createTimeListItem('Majlis Kesyukuran/Walimatulurus', data.time.marriage);
+    marriageDiv.innerHTML = createTimeListItem('Walimatulurus', data.time.marriage);
     // receptionDiv.innerHTML = createTimeListItem('Resepsi', data.time.reception);
 
     mapLink.href = data.link.map;
