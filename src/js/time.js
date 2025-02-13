@@ -9,7 +9,7 @@ export const time = () => {
 
     const createTimeListItem = (title, details) => (
         `<h3>${title}</h3>
-         <p>${details.day}, ${details.date} ${details.month} ${details.year} <br> 
+         <p>Pada ${details.day}, ${details.date} ${details.month} ${details.year} <br> 
          Pukul ${details.hours.start} Hingga ${details.hours.finish}</p>`
     );
 
