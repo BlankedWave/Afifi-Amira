@@ -88,9 +88,9 @@ export const wishas = () => {
             comentar.reverse();
 
             if (comentar.length > 0) {
-                peopleComentar.textContent = `${comentar.length} Orang telah mengucapkan`;
+                peopleComentar.textContent = `Ucapan daripada ${comentar.length} orang`;
             } else {
-                peopleComentar.textContent = `masih belum ada yang mengucapkan`;
+                peopleComentar.textContent = `Masih belum ada lagi ucapan`;
             }
 
             pageNumber.textContent = '1';
