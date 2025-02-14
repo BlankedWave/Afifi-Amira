@@ -90,7 +90,7 @@ export const wishas = () => {
             if (comentar.length > 0) {
                 peopleComentar.textContent = `Ucapan daripada ${comentar.length} orang`;
             } else {
-                peopleComentar.textContent = `Masih belum ada lagi ucapan yang diberikan`;
+                peopleComentar.textContent = `Masih belum ada lagi ucapan yang diterima`;
             }
 
             pageNumber.textContent = '1';
