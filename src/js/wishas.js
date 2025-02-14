@@ -102,7 +102,7 @@ export const wishas = () => {
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
-        buttonForm.textContent = 'Menghantar...';
+        buttonForm.textContent = 'Sedang Menghantar...';
 
         const comentar = {
             id: generateRandomId(),
