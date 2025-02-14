@@ -76,7 +76,7 @@ export const wishas = () => {
     let lengthComentar;
 
     const initialComentar = async () => {
-        containerComentar.innerHTML = `<h1 style="font-size: 1rem; margin: auto">Loading...</h1>`;
+        containerComentar.innerHTML = `<h1 style="font-size: 1rem; margin: auto">Menghantar...</h1>`;
         peopleComentar.textContent = '...';
         pageNumber.textContent = '..';
 
@@ -102,7 +102,7 @@ export const wishas = () => {
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
-        buttonForm.textContent = 'Loading...';
+        buttonForm.textContent = 'Menghantar...';
 
         const comentar = {
             id: generateRandomId(),
@@ -120,7 +120,7 @@ export const wishas = () => {
 
             lengthComentar = response.comentar.length;
 
-            peopleComentar.textContent = `${++response.comentar.length} orang telah memberi ucapan`;
+            peopleComentar.textContent = `${++response.comentar.length} orang telah berikan ucapan`;
             containerComentar.insertAdjacentHTML('afterbegin', listItemComentar(comentar));
         } catch (error) {
             return `Error : ${error.message}`;
@@ -137,7 +137,7 @@ export const wishas = () => {
     let endIndex = itemsPerPage;
 
     const updatePageContent = async () => {
-        containerComentar.innerHTML = '<h1 style="font-size: 1rem; margin: auto">Loading...</h1>';
+        containerComentar.innerHTML = '<h1 style="font-size: 1rem; margin: auto">Memuatkan...</h1>';
         pageNumber.textContent = '..';
         prevButton.disabled = true;
         nextButton.disabled = true;
