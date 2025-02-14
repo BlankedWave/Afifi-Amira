@@ -76,7 +76,7 @@ export const wishas = () => {
     let lengthComentar;
 
     const initialComentar = async () => {
-        containerComentar.innerHTML = `<h1 style="font-size: 1rem; margin: auto">Menghantar...</h1>`;
+        containerComentar.innerHTML = `<h1 style="font-size: 1rem; margin: auto">Memuatkan...</h1>`;
         peopleComentar.textContent = '...';
         pageNumber.textContent = '..';
 
