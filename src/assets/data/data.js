@@ -25,7 +25,7 @@ export const data = {
             year: '2025',
             month: 'Oktober',
             date: '25',
-            day: 'Ahad',
+            day: 'Sabtu',
             hours: {
                 start: '10 Pagi',
                 finish: '5 Petang'
