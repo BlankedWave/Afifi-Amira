@@ -10,10 +10,10 @@ export const data = {
         },
         P: {
             id: 2,
-            name: 'Ipsum Lorem',
+            name: 'Siti Amira Binti Razaman',
             child: 'Puteri',
-            father: 'Lorem',
-            mother: 'Ipsum',
+            father: 'Razaman',
+            mother: 'Zuraida',
             image: './src/assets/images/cewe.png'
         },
 
@@ -22,9 +22,9 @@ export const data = {
 
     time: {
         marriage: {
-            year: '2026',
-            month: 'April',
-            date: '26',
+            year: '2025',
+            month: 'Oktober',
+            date: '25',
             day: 'Ahad',
             hours: {
                 start: '10 Pagi',
