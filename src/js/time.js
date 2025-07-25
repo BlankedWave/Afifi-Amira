@@ -4,7 +4,7 @@ export const time = () => {
     const timeContainer = document.querySelector('.time');
     const [marriageDiv] = timeContainer.querySelectorAll('div div');
     // const [marriageDiv, receptionDiv] = timeContainer.querySelectorAll('div div');
-    const mapLink = timeContainer.querySelector('a');
+     const [mapLink, wazeLink] = timeContainer.querySelectorAll('a'); // ← Tambah waze link
     const addressParagraph = timeContainer.querySelector('a + p');
 
     const createTimeListItem = (title, details) => (
@@ -16,6 +16,9 @@ export const time = () => {
     marriageDiv.innerHTML = createTimeListItem('Nama Tempat', data.time.marriage);
     // receptionDiv.innerHTML = createTimeListItem('Resepsi', data.time.reception);
 
+    // Set hrefs for both links
     mapLink.href = data.link.map;
+    wazeLink.href = data.link2.map;
+    
     addressParagraph.textContent = data.time.address;
 };
