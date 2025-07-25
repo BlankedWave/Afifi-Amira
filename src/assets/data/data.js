@@ -23,8 +23,8 @@ export const data = {
     time: {
         marriage: {
             year: '2025',
-            month: 'Oktober',
-            date: '25',
+            month: 'November',
+            date: '1',
             day: 'Sabtu',
             hours: {
                 start: '10 Pagi',
