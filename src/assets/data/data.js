@@ -48,6 +48,10 @@ export const data = {
         calendar: 'https://calendar.app.google/oSVLRMYC79GzuA4f9',
         map: 'https://maps.app.goo.gl/q1Ask2Jgd4ekiiKBA',
     },
+    link2: {
+        // calendar: 'https://calendar.app.google/oSVLRMYC79GzuA4f9',
+        map: 'https://www.waze.com/en/live-map/directions?latlng=6.117054248658201%2C102.22460746765138',
+    },
 
     galeri: [
         {
