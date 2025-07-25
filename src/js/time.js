@@ -18,7 +18,7 @@ export const time = () => {
 
     // Set hrefs for both links
     mapLink.href = data.link.map;
-    wazeLink.href = data.link2.map;
+    wazeLink.href = data.link2.map; // ← Tambah waze link
     
     addressParagraph.textContent = data.time.address;
 };
